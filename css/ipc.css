@@ -1,0 +1,111 @@
+html,
+body {
+    --g1: #20c997;
+    --g2: #198754;
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    background: linear-gradient(45deg, var(--g1), var(--g2));
+    background-size: cover;
+    width: auto;
+    overflow-y: auto;
+    color: white;
+}
+
+header {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Poppins';
+    color: whitesmoke;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 25%;
+    background-color: rgba(39, 39, 39, 0.3);
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 2rem 0rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 25%;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 2rem 0rem;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 10vh;
+    padding: 25%;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 2rem 0rem;
+}
+
+section {
+    margin: 20px 0px 20px 0px;
+}
+
+/* Button CSS */
+.button-55 {
+    align-self: center;
+    background-color: var(--g2);
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: whitesmoke;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: min(.75rem, 1.5vw);
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-55:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
